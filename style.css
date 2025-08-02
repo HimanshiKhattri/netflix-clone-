@@ -173,7 +173,7 @@ select option {
 }
 
 .main-card {
-    width: clamp(120px,15vw,200px);
+    width: clamp(120px,13vw,200px);
     aspect-ratio: 2/3;
     flex-shrink: 0;
     background-color: aqua;
