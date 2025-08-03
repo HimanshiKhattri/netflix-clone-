@@ -219,3 +219,26 @@ select option {
     width: clamp(400px,70vw,1100px);
     margin: 0 auto;
 }
+
+.info-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.info-box {
+    position: relative;
+    /* background: linear-gradient(149deg, #192247 0%, #210e17 96.86%); */
+    color: #fff;
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    width: clamp(240px,35vw,455px);  /**  20vw  ***/
+    height: clamp(200px,28vh,300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.352rem 0.2rem;
+    transition: tranform 0.3 ease;
+}
