@@ -18,7 +18,7 @@ nav{
 
 .main{
     background-image: url(./assets/bg.jpg);
-    min-height: 100vh;
+    min-height: 110vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -71,6 +71,7 @@ select option {
     align-items: center;
     z-index: 1;
     gap: 10px;
+    
 }
 
 .box {
@@ -147,6 +148,7 @@ select option {
     font-size: 1.05rem;
     border-radius: 0.25rem;
     padding: 0 1rem;
+    border: none;
 }
 
 .bottom-curve {
@@ -224,7 +226,7 @@ select option {
     font-size: 1.6rem;
     font-weight: 600;
     font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .info-boxes {
@@ -267,4 +269,44 @@ select option {
     display:flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+far-section {
+    width: 100%;
+    padding: 0 20px;
+    margin: 3rem auto;
+    background-color: #000;
+}
+
+.faq-item {
+    background-color: rgb(45,45,45);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.faq-ques {
+    width: 100%;
+    background-color: rgb(45,45,45);
+    color:#fff;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1.5rem;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    position: relative;
+    transition: 0.5 ease-in-out;
+    border: 0.075rem solid transparent;
+} 
+
+.faq-ans {
+    background-color: rgb(45,45,45);
+    display: none;
+    color: #fff;
+    transition: 0.3 ease-in-out;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
