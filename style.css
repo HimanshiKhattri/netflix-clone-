@@ -220,11 +220,18 @@ select option {
     margin: 0 auto;
 }
 
+.responsive-container h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding-bottom: 1rem;
+}
+
 .info-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 
 }
 
@@ -238,7 +245,26 @@ select option {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    padding: 0.352rem 0.2rem;
+    padding: 0.452rem 1rem;
     transition: tranform 0.3 ease;
+    border-radius: 0.5rem;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.info-box h4{
+    font-size:1.3rem;
+    font-weight:700;
+    text-align: start;
+}
+
+.info-box p{
+    font-size:1rem;
+    font-weight:600;
+    color:rgb(201, 196, 214);
+}
+
+
+.info-box .img-box {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
 }
