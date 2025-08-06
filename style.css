@@ -301,6 +301,33 @@ far-section {
     border: 0.075rem solid transparent;
 } 
 
+.faq-ques::after{
+    font-family: 'Font Awesome 5 Free';
+    /* display: block; */
+    font-size: 2rem;
+    font-weight: 500;
+    content: "\+";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+}
+
+.faq-ques.open::after{
+    font-family: 'Font Awesome 6 Free';
+    font-size: 2rem;
+    font-weight: 900;
+    content: "\f00d";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    border: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+
+}
+
 .faq-ans {
     background-color: rgb(45,45,45);
     display: none;
