@@ -3,3 +3,6 @@ backend/node_modules/
 
 # Ignore backend environment file
 backend/.env
+
+#ignore bacend md file 
+backend.md
