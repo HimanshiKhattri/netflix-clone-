@@ -16,7 +16,7 @@ No external API is used — all movie data is stored in a MongoDB database creat
 ---*
 
 ## 🚀 Live Demo
-🔗 **Frontend Live Link:** [Click Here](https://HimanshiKhattri.github.io/netflix-clone-/) 
+🔗 **Frontend Live Link:** [Click Here](https://himanshikhattri.github.io/netflix-clone-/) 
 ⚠ **Note:** Full functionality (trending movies) will work only when the backend server is running locally.
 
 ## 🛠️ Tech Stack
