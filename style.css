@@ -155,6 +155,7 @@ i {
     border-radius: 0.25rem;
     padding: 0 1rem;
     border: none;
+    cursor: pointer;
 }
 
 .bottom-curve {
@@ -374,7 +375,7 @@ i {
 .footer-content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 .footer-top {
     margin-bottom: 20px;
@@ -493,6 +494,11 @@ i {
 .footer-copyright a {
     text-decoration: underline;
     color: #4b56f0;
+}
+
+.footer .disclaimer {
+   margin: 20px 0;
+   color: #cec5c5;
 }
 
 
